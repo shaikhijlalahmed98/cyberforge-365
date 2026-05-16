@@ -1,25 +1,130 @@
-# Progress Log — CyberForge 365
+# 📊 CyberForge 365 — Progress Log
 
-This file is your daily log. Append one entry per day following the template below.
+> One line per day completed. The Claude routine reads this file to determine the next day's lesson. **Never delete entries** — they're the proof of work.
 
-Entry template
+**Format:** `Day XXX | YYYY-MM-DD | Phase | Theme | Status | Notes`
+- Status: ✅ Done · ⏸️ Partial · ⏭️ Skipped · 🔄 Repeated
+- Notes: One-line summary of what stuck or what's blocking
 
-- Date: YYYY-MM-DD
-- Day #: (e.g., Day 1)
-- Time spent:
-- Topics covered:
-- Hands-on work / labs:
-- Outcomes / what I learned:
-- Next steps:
-- Blockers / questions:
+---
 
-Initial entry
+## Q1: Foundations (Days 1-90)
 
-- Date: 2026-05-16
-- Day #: 0 (repo initialization)
-- Time spent: 15 minutes
-- Topics covered: repository initialization, scaffolding files and folders
-- Hands-on work / labs: created README, curriculum.md, progress.md, and folder README files for notes/, labs/, and portfolio/
-- Outcomes / what I learned: project scaffold created; ready to generate day-by-day curriculum and begin Day 1
-- Next steps: ask the assistant to generate the 365-day curriculum and create day-001 notes and the first lab
-- Blockers / questions: none at repo initialization
+### Month 1: Security First Principles
+
+<!-- Day 1 onward will be added here by the routine. Example: -->
+<!-- Day 001 | 2025-XX-XX | Q1 | CIA Triad introduction | ✅ Done | Realized System-X2's audit logs are critical for Integrity -->
+
+---
+
+### Month 2: Cryptography Demystified
+
+<!-- Days 31-60 -->
+
+---
+
+### Month 3: Identity, Authentication & Authorization
+
+<!-- Days 61-90 -->
+
+---
+
+## Q2: Domain Deep Dives (Days 91-180)
+
+### Month 4: Network Security
+
+<!-- Days 91-120 -->
+
+---
+
+### Month 5: Application Security
+
+<!-- Days 121-150 -->
+
+---
+
+### Month 6: Cloud Security & Compliance
+
+<!-- Days 151-180 -->
+
+---
+
+## Q3: Architecture & Defense (Days 181-270)
+
+### Month 7: Secure Architecture Patterns
+
+<!-- Days 181-210 -->
+
+---
+
+### Month 8: Detection, Response & Forensics
+
+<!-- Days 211-240 -->
+
+---
+
+### Month 9: Offensive Security & Red Teaming
+
+<!-- Days 241-270 -->
+
+---
+
+## Q4: Specialization & Mastery (Days 271-365)
+
+### Month 10: Choose Your Specialization
+
+<!-- Days 271-300 -->
+
+---
+
+### Month 11: Portfolio Building
+
+<!-- Days 301-330 -->
+
+---
+
+### Month 12: Launch & Year 2
+
+<!-- Days 331-365 -->
+
+---
+
+## 📈 Stats (auto-updated weekly)
+
+- **Current streak:** 0 days
+- **Total days completed:** 0 / 365
+- **Labs completed:** 0
+- **Capstones published:** 0
+- **Portfolio artifacts:** 0
+
+---
+
+## 🎯 Monthly Capstones Tracker
+
+| Month | Capstone Topic | Status | Link |
+|-------|----------------|--------|------|
+| 1 | ShopFast Threat Model | ⏳ Pending | — |
+| 2 | Crypto Architecture for ShopFast | ⏳ Pending | — |
+| 3 | IAM Redesign (Q1 Capstone) | ⏳ Pending | — |
+| 4 | Zero-Trust Network Design | ⏳ Pending | — |
+| 5 | Secure API Design | ⏳ Pending | — |
+| 6 | Cloud Security Reference Arch (Q2 Capstone) | ⏳ Pending | — |
+| 7 | Enterprise Threat Model | ⏳ Pending | — |
+| 8 | Detection & Response Playbook | ⏳ Pending | — |
+| 9 | Breach Diary (Q3 Capstone) | ⏳ Pending | — |
+| 10 | Specialization Capstone | ⏳ Pending | — |
+| 11 | Conference Talk Proposal | ⏳ Pending | — |
+| 12 | Year-End Flagship Project | ⏳ Pending | — |
+
+---
+
+## 🚨 Red Team Roulette Log
+
+| Date | Scenario | Outcome | What I Learned |
+|------|----------|---------|----------------|
+| — | — | — | — |
+
+---
+
+**Repo:** [cyberforge-365](https://github.com/shaikhijlalahmed98/cyberforge-365)
+**Owner:** Ijlal Ahmed Shaikh
