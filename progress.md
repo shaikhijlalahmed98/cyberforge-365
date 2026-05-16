@@ -15,6 +15,8 @@
 <!-- Day 1 onward will be added here by the routine. Example: -->
 <!-- Day 001 | 2025-XX-XX | Q1 | CIA Triad introduction | ✅ Done | Realized System-X2's audit logs are critical for Integrity -->
 
+Day 001 | 2026-05-16 | Q1 | CIA Triad introduction | ✅ Done | CIA-tagged ShopFast components, identified payment & auth as crown jewels
+
 ---
 
 ### Month 2: Cryptography Demystified
@@ -91,9 +93,9 @@
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 0 days
-- **Total days completed:** 0 / 365
-- **Labs completed:** 0
+- **Current streak:** 1 day
+- **Total days completed:** 1 / 365
+- **Labs completed:** 1
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
