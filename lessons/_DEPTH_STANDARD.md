@@ -66,6 +66,62 @@ A lesson under 2,500 words is **insufficient depth**. Rewrite.
 
 ---
 
+## CRITICAL: Storytelling rule (yeh sabse important hai)
+
+Ijlal ne explicitly bola: technical terms ke beech mein agar koi shabd drop kar diya bina backstory ke, woh confuse hota hai. Solution: **storytelling style — har technical term ko kahani ki tarah introduce karo.**
+
+### The rule
+
+**Never drop a technical term in passing.** Every term must be introduced with:
+
+1. **The problem that existed first** (kya issue tha jise yeh term solve karta hai)
+2. **The story of how someone solved it** (kab, kisne, kis context mein)
+3. **The term as the natural conclusion** ("...isi solution ka naam pada X")
+4. **Concrete example or analogy** to cement understanding
+
+### Bad example (what NOT to write)
+
+> "Spring Boot mein SecureRandom (CSPRNG — Cryptographically Secure Pseudo-Random Number Generator) JVM ke java.security.SecureRandom ko wrap karta hai. Linux pe yeh /dev/urandom se entropy uthata hai."
+
+**Problems:** "wrap," "CSPRNG," "/dev/urandom," "entropy" — sab dropped bina backstory ke. Reader has to Google 4 terms.
+
+### Good example (what TO write)
+
+> "Chal pehle samjhte hain ke random number kaisey bante hain. Tu jab `new Random()` likhta hai Java mein, woh ek mathematical formula chalata hai jo number generate karta hai — bilkul random nahi, **pseudo-random** (pseudo = jhutha, kyunki actually predictable hai). Yeh formula ek 'seed' se start hota hai (usually current time). Agar attacker tera seed guess kar le, woh tere agle saare 'random' numbers predict kar sakta hai. 2000s mein cracker tools games hack karne ke liye yahi karte the.
+>
+> Toh phir asli random kahan se laaye? Computer naturally random nahi hai — predictable machine hai. Solution: real world se randomness uthao. Linux ne ek special file banayi `/dev/urandom` — yeh kernel ke andar ek pool maintain karti hai jo collect karta hai unpredictable cheezein: keyboard timing, mouse movement, disk seek delays, network packet arrival. Yeh randomness ki collection ko **entropy** kehte hain (entropy = predict karne ki mushkil).
+>
+> Java ne `/dev/urandom` ko expose karne ke liye class banayi: **SecureRandom**. Yeh class basically `/dev/urandom` aur Java ke beech bridge code hai — programmer language mein bridge code ko **wrapper** kehte hain. Aaj se yeh yaad rakh: **Random** class = math se generated = predictable = NEVER use for security. **SecureRandom** = OS entropy se = unpredictable = use for tokens, sessions, keys."
+
+**Why it works:** Reader ko 4 terms (pseudo-random, entropy, /dev/urandom, wrapper, SecureRandom) **discover karte hue mile** — Google nahi karna pada. Story dimagh mein stick ho gayi.
+
+### Checklist for every concept introduced
+
+- [ ] Pehle **problem** establish ki?
+- [ ] Phir **history** ya **context** diya kiska tha?
+- [ ] Phir **solution attempt** ya naya concept introduce kiya?
+- [ ] Phir **term** as the natural label diya?
+- [ ] Phir **concrete example** ya analogy se cement kiya?
+- [ ] Phir **takeaway** or **rule** for the reader to remember?
+
+If any unchecked, rewrite as story.
+
+### Where storytelling matters most
+
+- Defining any cryptographic concept (hash, MAC, signature, KMS, HSM)
+- Introducing any protocol (TLS, OAuth, OIDC, SAML)
+- Explaining any acronym (CVE, CVSS, IDS, DLP, WAF)
+- Discussing any historical incident (always set the scene first)
+- Introducing any framework (CIA, STRIDE, NIST, MITRE ATT&CK)
+
+### Tables and bullet points
+
+Tables and bullets are for **comparison and reference**, not primary teaching. Teach in **prose** (paragraphs), summarize in **tables**.
+
+Bad: jump straight into a table of "5 properties of TLS." Good: tell the story of how TLS evolved from SSL, then summarize properties in a table at the end of the section.
+
+---
+
 ## Code example rules
 
 - At least one .NET (C#) example per lesson where applicable
