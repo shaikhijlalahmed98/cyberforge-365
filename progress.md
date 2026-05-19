@@ -17,6 +17,7 @@
 
 Day 001 | 2026-05-16 | Q1 | CIA Triad introduction | ✅ Done | CIA-tagged ShopFast components, identified payment & auth as crown jewels
 Day 002 | 2026-05-19 | Q1 | Threat/Vulnerability/Risk/Exploit vocabulary | ✅ Done | Internalized risk equation; ShopFast risk triage drafted via NVD/CVE lookups
+Day 003 | 2026-05-19 | Q1 | Attack surface / vectors / blast radius | ✅ Done | Mapped ShopFast surface + blast radius; Capital One SSRF→IMDS→over-broad-IAM chain internalized
 
 ---
 
@@ -94,9 +95,9 @@ Day 002 | 2026-05-19 | Q1 | Threat/Vulnerability/Risk/Exploit vocabulary | ✅ D
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 2 days (Day 001, Day 002 — 3-day gap noted)
-- **Total days completed:** 2 / 365
-- **Labs completed:** 1 (Day 002 lab in progress)
+- **Current streak:** 3 days (Day 001, Day 002, Day 003 — early 3-day gap noted)
+- **Total days completed:** 3 / 365
+- **Labs completed:** 1 (Day 002 + Day 003 labs assigned, in progress)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
