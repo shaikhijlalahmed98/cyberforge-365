@@ -1,11 +1,14 @@
 # 📝 Daily Notes
 
-This folder holds my day-by-day learning notes. **One file per day**, named `day-XXX.md`.
+This folder holds my day-by-day learning notes. **One file per day**, named `<YYYY-MM-DD>-day<N>-<slug>.md`.
 
 ## File naming convention
 
-- `day-001.md` through `day-365.md` (always 3 digits, zero-padded)
-- Keeps files sorted in order, never breaks
+- Format: `<YYYY-MM-DD>-day<N>-<topic-slug>.md`
+- `<YYYY-MM-DD>` = calendar date the note was written (chronological sort)
+- `<N>` = day number (no zero-padding) — `day1`, `day2`, ..., `day365`
+- `<topic-slug>` = kebab-case theme matching the lesson file
+- Examples: `2026-05-16-day1-cia-triad.md`, `2026-05-19-day2-threat-vulnerability-risk-exploit.md`
 
 ## Note template
 
@@ -29,7 +32,7 @@ Every daily note should follow this structure:
 [The breach we studied. Root cause in one line. Architectural lesson in one line.]
 
 ## 🔬 Lab outcome
-[What I built. What broke. What I fixed. Link to /labs/day-XXX/]
+[What I built. What broke. What I fixed. Link to /labs/<YYYY-MM-DD>-day<N>-<slug>/]
 
 ## ❓ Open questions
 [What I didn't understand. Will revisit on recap day.]

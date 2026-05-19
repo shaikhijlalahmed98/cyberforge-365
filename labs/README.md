@@ -7,7 +7,7 @@ Hands-on work. This is where theory becomes muscle memory.
 ```
 labs/
 ├── README.md              ← You are here
-├── day-XXX/               ← One folder per lab day
+├── <YYYY-MM-DD>-day<N>-<slug>/               ← One folder per lab day
 │   ├── README.md          ← What I built, how, why
 │   ├── code/              ← Source files
 │   ├── configs/           ← Terraform, K8s manifests, IAM policies

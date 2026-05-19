@@ -972,7 +972,7 @@ To train your eye, here are two more breaches mapped to CIA. **Notice the patter
 
 ## 15. Self-Check Quiz
 
-Apne understanding ka test. Lesson padhne ke baad answer karo `notes/day-001.md` mein. **Peeking at the lesson nahi.**
+Apne understanding ka test. Lesson padhne ke baad answer karo `notes/2026-05-16-day1-cia-triad.md` mein. **Peeking at the lesson nahi.**
 
 1. In one sentence each, define Confidentiality, Integrity, and Availability — without using the words "secret," "tampering," or "uptime."
 2. You discover an attacker has been **modifying** product prices in your e-commerce DB for 3 days, no exfiltration. Which CIA pillar primarily failed? Why is this potentially more damaging than a one-time data leak?
@@ -987,7 +987,7 @@ Apne understanding ka test. Lesson padhne ke baad answer karo `notes/day-001.md`
 
 ## 16. Lab
 
-**Full instructions:** [`labs/day-001-cia-tagging.md`](../labs/day-001-cia-tagging.md)
+**Full instructions:** [`labs/2026-05-16-day1-cia-tagging.md`](../labs/2026-05-16-day1-cia-tagging.md)
 
 **Quick summary:**
 - ShopFast ke har component (services + datastores + edge) ko C/I/A tag karo (H/M/L)
@@ -1001,7 +1001,7 @@ Apne understanding ka test. Lesson padhne ke baad answer karo `notes/day-001.md`
 
 ## 17. Reflection & Tomorrow
 
-**📝 Journal question** (`notes/day-001.md` mein answer):
+**📝 Journal question** (`notes/2026-05-16-day1-cia-triad.md` mein answer):
 > Mere current/past projects mein, kis CIA pillar pe sabse zyada focus tha, aur kispe sabse kam? Kya woh decision conscious tha ya default?
 
 **🔗 Connection prompt:**

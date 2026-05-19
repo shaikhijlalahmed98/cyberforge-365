@@ -40,7 +40,7 @@ cyberforge-365/
 ├── README.md          ← You are here
 ├── curriculum.md      ← 365-day master plan
 ├── progress.md        ← Daily log (one line per day completed)
-├── notes/             ← Daily learning notes (day-001.md, day-002.md, ...)
+├── notes/             ← Daily learning notes (2026-05-16-day1-cia-triad.md, 2026-05-19-day2-threat-vulnerability-risk-exploit.md, ...)
 ├── labs/              ← Hands-on lab work, configs, code
 └── portfolio/         ← Public-facing artifacts: blog posts, case studies, threat models
 ```

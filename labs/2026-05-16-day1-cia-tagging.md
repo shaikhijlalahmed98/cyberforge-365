@@ -93,7 +93,7 @@ List the top 3 components where **all three** CIA pillars are HIGH. These are yo
 
 ## Bonus — Architecture Diagram
 
-Draw the ShopFast architecture using [excalidraw.com](https://excalidraw.com) (no login). Export PNG and save as `labs/day-001-shopfast-arch.png`. Mark crown jewels in red.
+Draw the ShopFast architecture using [excalidraw.com](https://excalidraw.com) (no login). Export PNG and save as `labs/2026-05-16-day1-shopfast-arch.png`. Mark crown jewels in red.
 
 ---
 

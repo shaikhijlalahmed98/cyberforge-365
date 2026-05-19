@@ -1,8 +1,31 @@
 # Chat Response Template — DO NOT DELETE
 
 > This is the **locked format** for every daily chat response. Confirmed by Ijlal on 2026-05-16.
+> Naming convention updated on 2026-05-19 to `<YYYY-MM-DD>-day<N>-<topic>.md` for chronological sorting.
 > The Claude routine reads this at session start. Every response in chat MUST follow this exact structure.
 > All long content (lessons, labs, reflections) goes to git files. Chat = log + hints only.
+
+---
+
+## File naming convention (LOCKED — 2026-05-19)
+
+All daily files use this format:
+
+```
+lessons/<YYYY-MM-DD>-day<N>-<topic-slug>.md
+labs/<YYYY-MM-DD>-day<N>-<lab-slug>.md
+notes/<YYYY-MM-DD>-day<N>-<topic-slug>.md
+```
+
+- `<YYYY-MM-DD>` = the calendar date the lesson is delivered (e.g., `2026-05-19`)
+- `<N>` = day number, no zero-padding (e.g., `day1`, `day2`, `day100`)
+- `<topic-slug>` = kebab-case short identifier (e.g., `cia-triad`, `threat-vulnerability-risk-exploit`)
+- For lessons & notes the topic-slug matches; for labs use a `<lab-slug>` describing the exercise (e.g., `vuln-risk-triage`, `cia-tagging`)
+
+Examples:
+- `lessons/2026-05-16-day1-cia-triad.md`
+- `labs/2026-05-19-day2-vuln-risk-triage.md`
+- `notes/2026-05-19-day2-threat-vulnerability-risk-exploit.md`
 
 ---
 
@@ -15,9 +38,9 @@
 2. Read `progress.md` → last entry: [DAY] → today = Day [XXX]
 3. Read `curriculum.md` → topic: [TOPIC] ([PHASE] / Month [N] / Week [N])
 4. Read `lessons/_DEPTH_STANDARD.md` → loaded quality rules
-5. Wrote `lessons/day-XXX.md` ([WORDCOUNT] words, storytelling style)
-6. Wrote `labs/day-XXX-[SLUG].md`
-7. Wrote `notes/day-XXX.md` (reflection template)
+5. Wrote `lessons/<YYYY-MM-DD>-day<N>-<topic>.md` ([WORDCOUNT] words, storytelling style)
+6. Wrote `labs/<YYYY-MM-DD>-day<N>-<lab-slug>.md`
+7. Wrote `notes/<YYYY-MM-DD>-day<N>-<topic>.md` (reflection template)
 8. Updated `progress.md` (Day XXX entry + stats N/365)
 9. `git add` → `git commit` → `git push origin main` ✅ (`[SHA]`)
 
@@ -28,7 +51,7 @@
 - **5 min** → Section 1 ([OPENING STORY HOOK]) — sets the *why* of [TOPIC]
 - **30 min** → Sections [X-Y] (core concepts) — read **opening story first**, then mechanisms make sense
 - **10 min** → Section [N] ([INCIDENT NAME] deep study) — cement on a real disaster
-- **10 min** → Section [N] (quiz) — answer in `notes/day-XXX.md` **without peeking**
+- **10 min** → Section [N] (quiz) — answer in `notes/<YYYY-MM-DD>-day<N>-<topic>.md` **without peeking**
 - **30-45 min (separate sitting)** → Section [N] (lab) — [ONE-LINE LAB SUMMARY]
 
 ---
@@ -41,9 +64,9 @@
 
 ### 🔗 GitHub
 
-- 📖 Lesson: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/lessons/day-XXX.md
-- 🔬 Lab: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/labs/day-XXX-[SLUG].md
-- 📝 Notes: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/notes/day-XXX.md
+- 📖 Lesson: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/lessons/<YYYY-MM-DD>-day<N>-<topic>.md
+- 🔬 Lab: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/labs/<YYYY-MM-DD>-day<N>-<lab-slug>.md
+- 📝 Notes: https://github.com/shaikhijlalahmed98/cyberforge-365/blob/main/notes/<YYYY-MM-DD>-day<N>-<topic>.md
 
 ---
 

@@ -1,6 +1,6 @@
 # Lesson Depth Standard — DO NOT DELETE
 
-> This file is the **quality contract** for every `lessons/day-XXX.md` in this repo. The Claude routine reads this at the start of each session to maintain a consistent depth standard. If a lesson feels vague, this file is the reference for what "deep enough" means.
+> This file is the **quality contract** for every `lessons/<YYYY-MM-DD>-day<N>-<topic>.md` in this repo. The Claude routine reads this at the start of each session to maintain a consistent depth standard. If a lesson feels vague, this file is the reference for what "deep enough" means.
 
 ---
 
@@ -34,7 +34,7 @@
 10. **Common misconceptions cleared** — table format
 11. **Glossary** — every new term defined, ordered alphabetically or by appearance
 12. **Self-check quiz** — 6-10 questions of varied difficulty, not multiple choice
-13. **Lab assignment** — link to `labs/day-XXX.md`
+13. **Lab assignment** — link to `labs/<YYYY-MM-DD>-day<N>-<slug>.md`
 14. **Reflection & Tomorrow** — journal question, connection prompt, next-day preview
 15. **Progress entry** — exact markdown line for `progress.md`
 
@@ -172,7 +172,7 @@ Bad: jump straight into a table of "5 properties of TLS." Good: tell the story o
 
 ## Checklist before commit
 
-Before pushing any `lessons/day-XXX.md`, verify:
+Before pushing any `lessons/<YYYY-MM-DD>-day<N>-<topic>.md`, verify:
 
 - [ ] Word count ≥ 2,500
 - [ ] All 15 required sections present
