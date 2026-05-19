@@ -16,6 +16,7 @@
 <!-- Day 001 | 2025-XX-XX | Q1 | CIA Triad introduction | ✅ Done | Realized System-X2's audit logs are critical for Integrity -->
 
 Day 001 | 2026-05-16 | Q1 | CIA Triad introduction | ✅ Done | CIA-tagged ShopFast components, identified payment & auth as crown jewels
+Day 002 | 2026-05-19 | Q1 | Threat/Vulnerability/Risk/Exploit vocabulary | ✅ Done | Internalized risk equation; ShopFast risk triage drafted via NVD/CVE lookups
 
 ---
 
@@ -93,9 +94,9 @@ Day 001 | 2026-05-16 | Q1 | CIA Triad introduction | ✅ Done | CIA-tagged ShopF
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 1 day
-- **Total days completed:** 1 / 365
-- **Labs completed:** 1
+- **Current streak:** 2 days (Day 001, Day 002 — 3-day gap noted)
+- **Total days completed:** 2 / 365
+- **Labs completed:** 1 (Day 002 lab in progress)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
