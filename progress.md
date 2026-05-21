@@ -19,6 +19,7 @@ Day 001 | 2026-05-16 | Q1 | CIA Triad introduction | ✅ Done | CIA-tagged ShopF
 Day 002 | 2026-05-19 | Q1 | Threat/Vulnerability/Risk/Exploit vocabulary | ✅ Done | Internalized risk equation; ShopFast risk triage drafted via NVD/CVE lookups
 Day 003 | 2026-05-19 | Q1 | Attack surface / vectors / blast radius | ✅ Done | Mapped ShopFast surface + blast radius; Capital One SSRF→IMDS→over-broad-IAM chain internalized
 Day 004 | 2026-05-20 | Q1 | AAA: Authentication, Authorization, Accounting/Auditing | ✅ Done | Internalized AuthN≠AuthZ, the under-loved 3rd A (accounting/non-repudiation); Morgan Stanley insider case shows authZ+accounting > authN alone
+Day 005 | 2026-05-21 | Q1 | Defense-in-depth — why one layer is never enough | ✅ Done | Swiss-cheese + assume-breach internalized; Equifax re-studied as 8 aligned-hole layer failures; mapped DiD onto ShopFast crown jewels
 
 ---
 
@@ -96,9 +97,9 @@ Day 004 | 2026-05-20 | Q1 | AAA: Authentication, Authorization, Accounting/Audit
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 4 days (Day 001–004; early 3-day gap noted)
-- **Total days completed:** 4 / 365
-- **Labs completed:** 1 (Day 002, Day 003, Day 004 labs assigned, in progress)
+- **Current streak:** 5 days (Day 001–005; early 3-day gap noted)
+- **Total days completed:** 5 / 365
+- **Labs completed:** 1 (Day 002–005 labs assigned, in progress)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
