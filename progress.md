@@ -21,6 +21,7 @@ Day 003 | 2026-05-19 | Q1 | Attack surface / vectors / blast radius | ✅ Done |
 Day 004 | 2026-05-20 | Q1 | AAA: Authentication, Authorization, Accounting/Auditing | ✅ Done | Internalized AuthN≠AuthZ, the under-loved 3rd A (accounting/non-repudiation); Morgan Stanley insider case shows authZ+accounting > authN alone
 Day 005 | 2026-05-21 | Q1 | Defense-in-depth — why one layer is never enough | ✅ Done | Swiss-cheese + assume-breach internalized; Equifax re-studied as 8 aligned-hole layer failures; mapped DiD onto ShopFast crown jewels
 Day 006 | 2026-05-22 | Q1 | Security control types: preventive, detective, corrective, compensating | ✅ Done | Function×nature matrix internalized; Target re-studied — detection fired but corrective response failed (vs Equifax's missing detection); mapped 4 control types onto ShopFast refunds + System-X2
+Day 007 | 2026-05-23 | Q1 | Week 1 Recap (Security Mindset) | ✅ Done | Connected 6 days into one decision-loop model; 5Q cumulative quiz + teach-back assigned; first risk register lab; flagged blank notes as weak spot
 
 ---
 
@@ -98,9 +99,9 @@ Day 006 | 2026-05-22 | Q1 | Security control types: preventive, detective, corre
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 6 days (Day 001–006; early 3-day gap noted)
-- **Total days completed:** 6 / 365
-- **Labs completed:** 1 (Day 002–006 labs assigned, in progress)
+- **Current streak:** 7 days (Day 001–007; early 3-day gap recovered)
+- **Total days completed:** 7 / 365
+- **Labs completed:** 1 (Day 002–007 labs assigned, in progress; Week 1 risk-register lab opened)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
