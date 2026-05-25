@@ -23,6 +23,7 @@ Day 005 | 2026-05-21 | Q1 | Defense-in-depth — why one layer is never enough |
 Day 006 | 2026-05-22 | Q1 | Security control types: preventive, detective, corrective, compensating | ✅ Done | Function×nature matrix internalized; Target re-studied — detection fired but corrective response failed (vs Equifax's missing detection); mapped 4 control types onto ShopFast refunds + System-X2
 Day 007 | 2026-05-23 | Q1 | Week 1 Recap (Security Mindset) | ✅ Done | Connected 6 days into one decision-loop model; 5Q cumulative quiz + teach-back assigned; first risk register lab; flagged blank notes as weak spot
 Day 008 | 2026-05-24 | Q1 | Why threat modeling matters / shift-left | ✅ Done | Internalized Shostack 4Q + impl-bug vs design-flaw; 1x→100x cost curve; Zoom CVE-2019-13450 as insecure-design (localhost web server) shift-left lesson
+Day 009 | 2026-05-25 | Q1 | STRIDE methodology | ✅ Done | STRIDE = CIA+AAA negated; per-element checklist + canonical mitigations; Zerologon CVE-2020-1472 as S+E crypto design flaw; STRIDE answers Shostack Q2
 
 ---
 
@@ -100,9 +101,9 @@ Day 008 | 2026-05-24 | Q1 | Why threat modeling matters / shift-left | ✅ Done 
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 8 days (Day 001–008; early 3-day gap recovered)
-- **Total days completed:** 8 / 365
-- **Labs completed:** 1 (Day 002–008 labs assigned, in progress; Day 8 first-threat-model lab opened)
+- **Current streak:** 9 days (Day 001–009; early 3-day gap recovered)
+- **Total days completed:** 9 / 365
+- **Labs completed:** 1 (Day 002–009 labs assigned, in progress; Day 9 STRIDE-per-element lab opened)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
