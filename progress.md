@@ -24,6 +24,7 @@ Day 006 | 2026-05-22 | Q1 | Security control types: preventive, detective, corre
 Day 007 | 2026-05-23 | Q1 | Week 1 Recap (Security Mindset) | ✅ Done | Connected 6 days into one decision-loop model; 5Q cumulative quiz + teach-back assigned; first risk register lab; flagged blank notes as weak spot
 Day 008 | 2026-05-24 | Q1 | Why threat modeling matters / shift-left | ✅ Done | Internalized Shostack 4Q + impl-bug vs design-flaw; 1x→100x cost curve; Zoom CVE-2019-13450 as insecure-design (localhost web server) shift-left lesson
 Day 009 | 2026-05-25 | Q1 | STRIDE methodology | ✅ Done | STRIDE = CIA+AAA negated; per-element checklist + canonical mitigations; Zerologon CVE-2020-1472 as S+E crypto design flaw; STRIDE answers Shostack Q2
+Day 010 | 2026-05-26 | Q1 | Data Flow Diagrams (DFDs) — your first one | ✅ Done | DFD = STRIDE ka canvas; 5 building blocks + trust boundary; BA Magecart 2018 = assumed-flow ≠ actual-flow ka textbook case (missing browser-side JS process on DFD); ShopFast L0+L1 drawn
 
 ---
 
@@ -101,9 +102,9 @@ Day 009 | 2026-05-25 | Q1 | STRIDE methodology | ✅ Done | STRIDE = CIA+AAA neg
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 9 days (Day 001–009; early 3-day gap recovered)
-- **Total days completed:** 9 / 365
-- **Labs completed:** 1 (Day 002–009 labs assigned, in progress; Day 9 STRIDE-per-element lab opened)
+- **Current streak:** 10 days (Day 001–010; early 3-day gap recovered)
+- **Total days completed:** 10 / 365
+- **Labs completed:** 1 (Day 002–010 labs assigned, in progress; Day 10 ShopFast L0+L1 DFD lab opened)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
