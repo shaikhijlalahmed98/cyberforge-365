@@ -25,6 +25,8 @@ Day 007 | 2026-05-23 | Q1 | Week 1 Recap (Security Mindset) | ✅ Done | Connect
 Day 008 | 2026-05-24 | Q1 | Why threat modeling matters / shift-left | ✅ Done | Internalized Shostack 4Q + impl-bug vs design-flaw; 1x→100x cost curve; Zoom CVE-2019-13450 as insecure-design (localhost web server) shift-left lesson
 Day 009 | 2026-05-25 | Q1 | STRIDE methodology | ✅ Done | STRIDE = CIA+AAA negated; per-element checklist + canonical mitigations; Zerologon CVE-2020-1472 as S+E crypto design flaw; STRIDE answers Shostack Q2
 Day 010 | 2026-05-26 | Q1 | Data Flow Diagrams (DFDs) — your first one | ✅ Done | DFD = STRIDE ka canvas; 5 building blocks + trust boundary; BA Magecart 2018 = assumed-flow ≠ actual-flow ka textbook case (missing browser-side JS process on DFD); ShopFast L0+L1 drawn
+Day 011 | 2026-05-26 | Q1 | Trust Boundaries — where threats live | ✅ Done | Internalized 5 boundary types + per-crossing question framework; SolarWinds SUNBURST as missing build-process boundary; annotated ShopFast L1 with implicit assumptions
+Day 012 | 2026-05-26 | Q1 | DREAD scoring & threat prioritization | ✅ Done | Internalized 5-letter scoring + Microsoft's deprecation rationale; CVSS/OWASP-Risk/FAIR ka layered use; Log4Shell as DREAD=10 case where inventory (SBOM) gap broke prioritization; bake-off lab on ShopFast threats
 
 ---
 
@@ -102,9 +104,10 @@ Day 010 | 2026-05-26 | Q1 | Data Flow Diagrams (DFDs) — your first one | ✅ D
 
 ## 📈 Stats (auto-updated weekly)
 
-- **Current streak:** 10 days (Day 001–010; early 3-day gap recovered)
-- **Total days completed:** 10 / 365
-- **Labs completed:** 1 (Day 002–010 labs assigned, in progress; Day 10 ShopFast L0+L1 DFD lab opened)
+- **Current streak:** 12 days (Day 001–012; early 3-day gap recovered)
+- **Total days completed:** 12 / 365
+- **Labs completed:** 1 (Day 002–012 labs assigned, in progress; Day 11 trust-boundary annotation + Day 12 DREAD-vs-CVSS bake-off opened)
+- **Quizzes generated:** 12 (Days 001-012, 50 questions each)
 - **Capstones published:** 0
 - **Portfolio artifacts:** 0
 
